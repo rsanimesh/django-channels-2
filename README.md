@@ -14,6 +14,7 @@ The example code is in Python 3.5 using Django 2.0.7
 * pip install pypiwin32
 * django-admin startproject channels-rapid .
 * python manage.py runserver
+* python manage.py startapp chat
 
 ## Description
 
