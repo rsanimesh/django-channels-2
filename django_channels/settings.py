@@ -25,7 +25,7 @@ SECRET_KEY = 'm016w%k*tk^a3(wg2tw38x*5^sae^6*f8pp6%18_w#&*ay)_fp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'channels',
 ]
 
 MIDDLEWARE = [
@@ -50,6 +51,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'django_channels.urls'
+ASGI_APPLICATION = "django_channels.routing.application"
 
 TEMPLATES = [
     {
