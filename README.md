@@ -4,16 +4,16 @@ This code is what i have learned and implemented while going through introductio
 ## Code Requirements
 The example code is in Python 3.5 using Django 2.0.7
 
-## Setup
+## Setup on windows
 
 * cd your_code_folder_location
 * python3 -m venv location_for_virtual_enviorment
 * location_for_virtual_enviorment\Script\activate
 * pip install django==2.0.7
 * pip install channels==2.1.2
+* pip install pypiwin32
 * django-admin startproject channels-rapid .
 * python manage.py runserver
-
 
 ## Description
 
